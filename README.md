@@ -29,9 +29,8 @@ Google Gemini (Version: )
 * 
   
 
-### Publication (IJCNN)
-### 1. K-LM: Knowledge Augmenting in Language Models Within the Scholarly Domain
-URL: https://ieeexplore.ieee.org/document/9866735 
+### Publication (International Joint Conference on Neural Networks, 2025, Rome, Italy)
+### Mitigating Semantic Drift: Evaluating LLMs' Efficacy in Psychotherapy through MI Dialogue Summarization Leveraging MITI Code
 
 Cite as :
 
@@ -39,12 +38,11 @@ Cite as :
 
 ## Acknowledgements
 This work has been funded by the EC in the H2020 Marie Skłodowska-Curie PhilHumans project (contract no. 812882) and the European Research Council (Grant agreement No. 101039303 NG-NLG).
-
-<img src="img/LOGO_ERC-FLAG_FP.png" alt="erc-logo" height="150"/> 
-
+<figure src="img/LOGO_ERC-FLAG_FP.png" alt="erc-logo" height="150"/> 
 
 
-* -The `Results` contain the results of ChatGpt-based Annotation in one- and few-shot experimental settings. 
+
+
 
 
 
