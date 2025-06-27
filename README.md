@@ -19,9 +19,9 @@ This folder contains the following files:
 ### Models
 The LLMs used for the experiments : 
 ```
-OpenAIChatGPT (Version: )
-DeepSeek (Version: )
-Google Gemini (Version: )
+OpenAIChatGPT (4.0)
+DeepSeek (V3 )
+Google Gemini (2.0 Flash)
 ```
 
 ### Supplementary Material
