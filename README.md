@@ -30,7 +30,7 @@ Google Gemini (2.0 Flash)
   
 
 ### Publication (International Joint Conference on Neural Networks, 2025, Rome, Italy)
-### Mitigating Semantic Drift: Evaluating LLMs' Efficacy in Psychotherapy through MI Dialogue Summarization Leveraging MITI Code
+#### Mitigating Semantic Drift: Evaluating LLMs' Efficacy in Psychotherapy through MI Dialogue Summarization Leveraging MITI Code
 
 Cite as :
 
