@@ -37,8 +37,8 @@ Cite as :
 ```
 
 ## Acknowledgements
-This work has been funded by the EC in the H2020 Marie Skłodowska-Curie PhilHumans project (contract no. 812882) and the European Research Council (Grant agreement No. 101039303 NG-NLG).
-<figure src="img/LOGO_ERC-FLAG_FP.png" alt="erc-logo" height="150"/> 
+This research work is funded by the European Union Horizon Europe Project STELAR, Grant Agreement ID: 101070122
+<figure src="Prompts/Logo.png" alt="erc-logo" height="150"/> 
 
 
 
