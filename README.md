@@ -7,7 +7,6 @@
 
 ### Dataset
 This folder contains the following files:
-
 * `train_dataset_MI_sessions.csv`: This file contains the original MI dialogues of the training dataset.
 * `test_dataset._MI_sessions.csv`: This file contains the original MI dialogues of the training dataset.
 * `train_data_MI_annotated.csv`: This file contains the annotated MI dialogues across six components of MITI.
@@ -25,7 +24,8 @@ Google Gemini (2.0 Flash)
 ```
 
 ### Supplementary Material
-* `Prompts`: This file contains the original MI dialogues of the training dataset.
+* `Prompts_Sum`: This file contains a variety of prompts (zero-shot, one-shot, and few-shot) used to generate the summaries of MI sessions.
+* `Prompts_Anno`: This file contains the prompts used in one-shot and few-shot context settings to perform LLM-based annotation of MI summaries.
 * 
   
 
