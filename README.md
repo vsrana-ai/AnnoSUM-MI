@@ -38,7 +38,7 @@ Cite as :
 
 ## Acknowledgements
 This research work is funded by the European Union Horizon Europe Project STELAR, Grant Agreement ID: 101070122
-<figure src="Prompts/Logo.png" alt="erc-logo" height="150"/> 
+<Prompts src="Prompts/Logo.png" alt="erc-logo" height="150"/> 
 
 
 
