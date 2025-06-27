@@ -34,7 +34,6 @@ Google Gemini (2.0 Flash)
 
 Cite as :
 
-```
 
 ## Acknowledgements
 This research work is funded by the European Union Horizon Europe Project STELAR, Grant Agreement ID: 101070122
