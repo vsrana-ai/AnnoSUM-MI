@@ -1,5 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
+
 
 # # 🧠 Ollama Summary Generator with Shutdown
 # This notebook lets you:
@@ -8,8 +7,6 @@
 # - Optionally shut down the Ollama server from within Jupyter Notebook
 # 
 # **Note:** Make sure `ollama serve` is running in your Terminal before running this notebook.
-
-# In[29]:
 
 
 # Step 1: Import required libraries
@@ -27,9 +24,6 @@ from sklearn.metrics import (accuracy_score, balanced_accuracy_score, precision_
         recall_score, f1_score, confusion_matrix, ConfusionMatrixDisplay)
 
 
-# In[30]:
-
-
 # Step 2: Configure Models and Prompts
 models = ['mistral', 'llama2', 'tinyllama'] #Add more models as required
 prompts = ['one-shot', 'few-shot', 'cot'] ##Add more prompts as required
@@ -40,9 +34,6 @@ prompt_dropdown = Dropdown(options=prompts, value='cot', description='Prompt:')
 display(VBox([model_dropdown, prompt_dropdown]))
 
 
-# In[5]:
-
-
 # Step 3: Load input CSV with 'description' column
 input_csv = "input.csv"
 df= pd.read_csv(input_csv)#.head(4)
@@ -51,8 +42,6 @@ df.head()
 
 
 # ### Task- Summarization 
-
-# In[41]:
 
 
 # Step 4: Define Prompt Templates (tweak as necessary)
@@ -72,9 +61,7 @@ prompt_templates = {
 }
 
 
-# ### Function for Generating Summaries
-
-# In[45]:
+#### Function for Generating Summaries
 
 
 # Step 5: Define the summarization function (with streaming fix and fallback)
@@ -129,14 +116,8 @@ def run_summary(model, prompt_type, filename):
     print(f"⏱️ Total time: {total_time}s")
 
 
-# In[46]:
-
-
 # Step 6: Run the summary generator with selected model and prompt
 run_summary(model_dropdown.value, prompt_dropdown.value,input_csv)
-
-
-# In[3]:
 
 
 # Step 7: Optional — Shut down the Ollama server
