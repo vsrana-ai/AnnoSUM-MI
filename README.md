@@ -29,7 +29,7 @@ Google Gemini (2.0 Flash)
 ### Supplementary Material
 * `Prompts_Sum`: This file contains a variety of prompts (zero-shot, one-shot, and few-shot) used to generate the summaries of MI sessions.
 * `Prompts_Anno`: This file contains the prompts used in one-shot and few-shot context settings to perform LLM-based annotation of MI summaries.
-* `summary.py`: This file contains the code to use open-source LLMs for summary generation through frameworks such as OLlama.
+* `summary.py/ipynb`: This file contains the code to use open-source LLMs for summary generation through frameworks such as OLlama.
 
 ### Results
 * This folder contains the results for the experimental outcome interpretation. 
